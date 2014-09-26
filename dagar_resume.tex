@@ -1,0 +1,197 @@
+\documentclass[margin,line]{res}
+
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+      
+      
+\usepackage{color, hyperref}
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.3}
+\hypersetup{colorlinks, 
+            breaklinks, 
+            linkcolor=darkblue,
+            urlcolor=darkblue,
+            anchorcolor=darkblue,
+            citecolor=darkblue
+            }
+            
+            
+\hypersetup{pdfauthor = {Daniel Agar},
+	    pdftitle = {Daniel Agar's Resume},
+	    pdfsubject = {Resume},
+            pdfkeywords = {Agar, Daniel, resume, computer science, python, java, IBM, extreme blue},
+            pdfcreator = {LaTeX with hyperref package},
+            pdfproducer = {dvips + ps2pdf}}
+
+
+\begin{document}
+
+%\name{Daniel Agar \vspace*{.1in}}
+\name{\Large Daniel Agar}
+
+\begin{resume}
+
+
+  \section{\sc Contact Information}
+
+    \vspace{.05in}
+
+    \begin{tabular}{@{}p{3.5in}p{4in}}
+      528 NE 4th Ave, Apt A                  & {\it Phone:}  352-448-9461 \\                     
+      Gainesville, Florida         & {\it E-mail:}  \href{mailto:daniel@agar.ca}{daniel@agar.ca}\\       
+      32601                          & {\it Website:} \href{http://dagar.ca}{dagar.ca} \\     
+    \end{tabular}
+    
+    
+
+  \section{\sc Professional Experience}
+  
+        \href{http://www.ibm.com/ca/en/}{\bf IBM} {\hfill Ottawa, Ontario}\\
+      {\em Virtual Machine Software Developer} \hfill {\bf January 2012 -- Present}
+      \begin{itemize} \itemsep -2pt
+        \item Development work on IBM's J9 Java Virtual Machine.
+        \item Initially worked on performance, customer defects, and features for Java 8.
+	\item Spent the last year on an experimental project extracting and applying Java runtime technology (gc, jit, portability, serviceability) to Python and Ruby.
+        \item Drove git adoption and improved large multisite continuous integration system.
+        \item Worked with C, C++, Java, Python, and assembly (x86, ppc, s390) across Linux, Windows, AIX and z/OS.
+
+        %\item Spent the first year working on defects and improving the large multisite continuous integration system
+        %\item Open Managed Runtime
+        %  mapped Java Memory Management technology to Python and Ruby runtimes improving yadda yadda
+        %  Java, Python, Ruby, runtimes
+        %\item initial member of the Open Managed Runtime open source project (github.com/IBM/OMR)
+        %  Extracted core memory management technology from IBM's Java Virtual Machine and used to improve performance of the main Python, and Ruby implementations
+      \end{itemize}  
+
+        \href{http://www.ibm.com/ca/en/}{\bf IBM} {\hfill Ottawa, Ontario}\\
+      {\em Extreme Blue Technical Intern} \hfill {\bf May 2011 -- August 2011}
+      \begin{itemize} \itemsep -2pt
+        \item Part of a small self directed team of interns tasked with proving the viability of a new IBM JVM technology (packed objects).
+        \item Incorporated experimental JVM packed objects into various IBM products to improve performance and reduce memory footprint.
+        \item Successfully demonstrated the financial feasability of the project to executive leadership and obtained further investment in the project.
+        \item Worked with Java, C++, Python and encountered a wide range of IBM products and technologies.
+      \end{itemize}
+    
+
+	\href{http://www.oceaniccorp.com}{\bf Oceanic Consulting Corporation} {\hfill St. John's, Newfoundland}\\
+      {\em Software Developer} \hfill {\bf July 2009 -- September 2010}
+      \begin{itemize} \itemsep -2pt
+        \item Heavily modified existing numerical software, in some cases reducing execution time by an order of magnitude.
+        \item Adapted research code for commercial use.
+        \item Created custom 3D visualization and mesh editing tools with OpenGL and Qt.
+        \item Worked extensively with Python, Fortran, C++, Qt, OpenGL, Java.
+      \end{itemize}
+
+
+%      \href{http://imprint.uwaterloo.ca}{\bf Imprint Publications} {\hfill University of Waterloo, Waterloo, Ontario}\\
+%      {\em System Administrator} \hfill {\bf January 2006 -- April 2009}
+%      \begin{itemize} \itemsep -2pt
+%      	\item Maintained Redhat and Debian Linux servers providing web, mail, file, DNS, LDAP, domain controller services.
+%      	\item Implemented incremental hourly backup system with simple web interface for employee use. 
+%      	\item Provided immediate on site and remote support for Imprint's employees and volunteers.
+%       \end{itemize}
+
+%      \href{http://www.ibm.com/ca/en/}{\bf IBM Canada}, Waterloo, Ontario, Canada\\
+%      {\em Computer Systems Analyst (Contract)} \hfill {\bf May 2005 - September 2006}
+%      \begin{itemize}  \itemsep -2pt %reduce space between items
+%        \item Worked in the Manulife Computer Service Center at IBM Canada, providing level 1 and 2 technical support via phone, email and remote desktop for employees in North America.
+%        
+%        \item Supported various issues and applications including Lotus Notes, Citrix connections, Blackberry problems, any kind of authentication problem.
+        
+        %\item Was involved in technical documentation of Manulife Applications supported by IBM.
+        
+%      \end{itemize}
+                
+        
+
+                
+%      \href{http://uhfcomm.com}{\bf UHFComm}, Waterloo, Ontario, Canada\\
+%      {\em System Administrator} \hfill {\bf September 2004 - November 2007}
+%      \begin{itemize}  \itemsep -2pt
+%      
+%        \item Deployed Redhat Linux based mail and web servers including spam filtering, web based email access, windows domain controller and automated remote backup.
+%        
+%        \item Installed and configured various other Linux applications and desktops for UHFComm employees.
+%        
+%      \end{itemize}
+%                
+%      
+%      
+%                
+%      \href{http://johnson-engineering.ca}{\bf Johnson Engineering Consultants}, Stratford, Ontario, Canada\\   
+%      {\em System Administrator} \hfill {\bf October 2003 -- Dec 2004}
+%        \begin{itemize}  \itemsep -2pt
+%        
+%          \item Built and customized GNU/Linux servers utilizing Apache, PostreSQL, LDAP, Samba, Bind DNS, Courier-Imap and Postfix mail server with Spamassassin spam filtering, primarily used Redhat and Debian based Linux distributions.
+%          
+%          \item Assembled and maintained Windows workstations.
+%          
+%          \item Transitioned all employees and documents to OpenOffice office suite and various other open source packages.
+%          
+%          \item Implemented Linux thin client workstations and transitioned several employees to full GNU/Linux workstations.
+%          
+%          \item Interfaced Asterisk VOIP server with external providers and existing office phone system.
+%          
+%        \end{itemize}
+
+
+    
+    
+
+
+  \section{\sc Education}
+
+      \href{http://www.carleton.ca}{\bf Carleton University} {\hfill Ottawa, Ontario}\\
+      {\em Computer Science} \hfill {\bf 2010 -- 2011}
+      \begin{itemize} \itemsep -2pt
+        \item Relevant Courses: operating systems, algorithms, compilers, networking, computer vision GPA: 11.75/12
+      \end{itemize}
+
+
+      \href{http://www.uwaterloo.ca}{\bf University of Waterloo} {\hfill Waterloo, Ontario}\\
+      {\em BSc, Honours Computational Physics \\ Computer Science Minor} \hfill {\bf 2009}
+      \begin{itemize} \itemsep -2pt
+        \item Studied a wide range of topics in applied and theoretical physics, mathematics and computer science
+      \end{itemize}
+
+
+
+
+    \section{\sc Skills} 
+
+      {Programming Languages}
+      \begin{itemize} \itemsep -2pt
+        \item Proficient in C, C++, Python, Java, Fortran, Bash
+      \end{itemize}
+      
+      \vspace{-.3cm}
+      
+      {Operating Systems}
+      \begin{itemize} \itemsep -2pt
+        \item Very experienced with GNU/Linux, Android and Windows
+      \end{itemize}
+      
+      \vspace{-.3cm}
+
+      {Software}
+      \begin{itemize} \itemsep -2pt
+        \item Eclipse, Visual Studio, Git, Subversion, GDB, Matlab, MySQL
+      \end{itemize}
+
+
+%    \section{\sc Conference Publications}    
+%      Zhan, D., Agar, D., He, M., Spencer, D., Molyneux, D.  2010.  Numerical Simulation of Ship Maneuvering in Pack Ice.  29th International Conference on Ocean, Offshore and Arctic Engineering, Shanghai, China, June 2010.
+
+
+\end{resume}
+\end{document}
