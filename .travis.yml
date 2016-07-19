@@ -1,0 +1,11 @@
+
+
+addons:
+  apt:
+    packages:
+    - texlive-latex-recommended
+    - make
+
+
+script:
+  - make
