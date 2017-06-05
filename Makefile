@@ -1,5 +1,8 @@
-TEX=dagar_resume
+# Daniel Agar resume Makefile
+# sudo apt install texlive-latex-recommended
 
+
+TEX=dagar_resume
 
 %.pdf: %.tex
 	pdflatex $<
